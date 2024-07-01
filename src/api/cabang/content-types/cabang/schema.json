@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cabangs",
+  "info": {
+    "singularName": "cabang",
+    "pluralName": "cabangs",
+    "displayName": "Cabang",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Lokasi": {
+      "type": "string",
+      "required": true
+    },
+    "jam_buka": {
+      "required": true,
+      "type": "integer"
+    },
+    "jam_tutup": {
+      "required": true,
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rattings",
+  "info": {
+    "singularName": "ratting",
+    "pluralName": "rattings",
+    "displayName": "Ratting",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Star": {
+      "required": true,
+      "type": "integer"
+    },
+    "Komentar": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
