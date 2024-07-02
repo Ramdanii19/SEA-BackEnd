@@ -1,57 +1,54 @@
-# 🚀 Getting started with Strapi
+# SEA Salon - Fullstack NextJS-TS
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
+Welcome to MovieTix, your ultimate destination for purchasing tickets to the latest blockbusters! With our user-friendly website, you can effortlessly browse through a wide selection of movies, view showtimes at your favorite theaters, and secure your tickets in just a few clicks.
 
-### `develop`
+## Run Locally
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
+Clone the project
 
-```
-npm run develop
-# or
-yarn develop
+```bash
+  https://github.com/Ramdanii19/SEA-BackEnd.git
 ```
 
-### `start`
+Go to the project directory
 
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-start)
-
-```
-npm run start
-# or
-yarn start
+```bash
+  cd SEA-BackEnd
 ```
 
-### `build`
+Install dependencies (Minimal NodeJS v18)
 
-Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-build)
-
-```
-npm run build
-# or
-yarn build
+```bash
+  yarn install
 ```
 
-## ⚙️ Deployment
+Start the server
 
-Strapi gives you many possible deployment options for your project including [Strapi Cloud](https://cloud.strapi.io). Browse the [deployment section of the documentation](https://docs.strapi.io/dev-docs/deployment) to find the best solution for your use case.
+```bash
+  yarn develop
+```
 
-## 📚 Learn more
+ENV
 
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://strapi.io/blog) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
+```bash
+  HOST=0.0.0.0
+PORT=1337
+APP_KEYS=9KWBGoeeQ+Gggz/63v72Yg==,IBCJ3dsiDjwyubu/Ptw6lQ==,q4zb3J2ZpP/cIsVihlihtQ==,s9TbDKFPRTdDTz6I1Sw4Cg==
+API_TOKEN_SALT=hplZ78DBv31HsTjfgAN+7A==
+ADMIN_JWT_SECRET=X6mx9ALiFEPmYiT2P3H9Ew==
+TRANSFER_TOKEN_SALT=ugIt9t+g8S8Yu0zP0K8zbg==
+# Database
+DATABASE_CLIENT=postgres
+DATABASE_HOST=aws-0-ap-southeast-1.pooler.supabase.com
+DATABASE_PORT=6543
+DATABASE_NAME=postgres
+DATABASE_USERNAME=postgres.lwjpvwxjybvthxlncuyr
+DATABASE_PASSWORD=NeTVEL@RfMPx6.x
+DATABASE_SSL=false
+JWT_SECRET=PgyEPgmO1L+uYpuPMaXa4g==
 
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
+```
 
-## ✨ Community
+## Support
 
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
-
----
-
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+For support, email muhamadramdani0519@gmail.com
